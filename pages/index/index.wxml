@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view id="top_tips" class="{{toptips}}">
+点击 <image class='img' src='../../images/follow.png'></image>
+“添加到我的小程序”下次打开会更方便哦~
+</view>
+
+<view>
+  <open-data type="userAvatarUrl" class="user_tou"></open-data>
+</view>
+
+<text class='title'>坦白言</text>
+
+<view>
+  <text class='describe'>快和朋友们来一场坦白吧！看看他/她内心里的你。</text>
+</view>
+
+<navigator url='../start/start'>
+  <button class='btn' >开始坦白言</button>
+</navigator>
+
+<navigator url='../information/information'>
+  <button class='btn' >查看TA对我的坦白</button>
+</navigator>
+

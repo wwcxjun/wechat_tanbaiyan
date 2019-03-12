@@ -1,0 +1,10 @@
+<!--pages/information/information.wxml-->
+<view wx:for="{{content}}" wx:key='index' class='content'>
+  <text>{{ item.content }}</text>
+  <text class='signature'>—— {{ item.signature }}</text>
+</view>
+
+
+<view class='fail'>
+  <text>{{ tips }}</text>
+</view>

@@ -1,0 +1,46 @@
+/* pages/confession/confession.wxss */
+page{
+  background:#F38181;
+  text-align:center;
+  font-size: 12px;
+}
+.section{
+  width:100%;
+  margin-top:30px;
+}
+textarea{
+  width:93%;
+  border:1px solid #ddd;
+  margin-left:auto;
+  margin-right:auto;
+  background:#fff;
+  padding:5px;
+  height:200px;
+  border-radius:5px;
+  color:#707070;
+  text-align:left;
+}
+button{
+  display:block;
+  width:96%;
+  padding:5px;
+  background:rgb(252, 220, 104);
+  color:#fff;
+  margin-top:10px;
+  font-size: 12px;
+}
+.signature{
+  width:93%;
+  background: #fff;
+  padding: 5px;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 5px;
+}
+.tips{
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color:#fff;
+}

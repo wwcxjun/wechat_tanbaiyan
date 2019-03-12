@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/start/start",
+    "pages/confession/confession",
+    "pages/information/information"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F38181",
+    "navigationBarTitleText": "坦 白 言",
+    "navigationBarTextStyle":"white"
+  }
+}

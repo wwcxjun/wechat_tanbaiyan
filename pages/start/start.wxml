@@ -1,0 +1,18 @@
+<!--pages/start/start.wxml-->
+<view class='describe'>
+  <text>玩法：</text>
+  <text>一、将本页转发到群聊或者保存图片转发到各种社交软件.</text>
+  <text>二、群成员/好友 扫码或点击卡片进入留言界面.</text>
+  <text>三、打开小程序查看好友给自己的留言.</text>
+  <text>注：无法知道留言是谁写的.</text>
+  <text>开源地址：www.tanbaiyan.com</text>
+</view>
+<canvas
+  canvas-id="canvas"
+  class="canvas"
+  style="position:absolute;width:{{canvasWidth}};height:{{canvasHeight}};left:{{canvasLeft}};">
+</canvas>
+
+<text class='tips'>将本页面转发给TA就能对你进行坦白言啦</text>
+<button bindtap='create'>保存图片去转发</button>
+<button open-type="share">转发群聊</button>

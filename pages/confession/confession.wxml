@@ -1,0 +1,14 @@
+<!--pages/confession/confession.wxml-->
+<view wx:if="{{ status == 0 }}" class="section">
+  <form bindsubmit="submit">
+    <textarea maxlength="200" placeholder="坦白言 说你想说 匿名坦白对方无法知道你是谁哦   (注：字数限制200字以内哦)" name="textarea"/>
+    <input class='signature' name="signature" placeholder='署名'></input>
+    <button form-type="submit"> 向TA坦白 </button>
+  </form>
+</view>
+<view wx:if="{{ status == 200 }}">
+  <text class='tips'>坦白成功~</text>
+  <navigator url='../index/index'>
+    <button>我也要玩</button>
+  </navigator>
+</view>
